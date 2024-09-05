@@ -31,6 +31,9 @@ The application consists of a FastAPI backend for image processing and a Streaml
 To see the Space Image Processing tool in action, check out our demo video:
 
 
+https://github.com/user-attachments/assets/e78be9fe-8bc9-4882-bea9-fa86222f3bd7
+
+
 
 
 

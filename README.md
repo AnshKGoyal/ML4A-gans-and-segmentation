@@ -6,6 +6,8 @@ This project provides a web application for processing space-related images, off
 
 The application consists of a FastAPI backend for image processing and a Streamlit frontend for user interaction.
 
+**Note:** For Lunar Surface Segmentation i am using my previous [repo](https://github.com/AnshKGoyal/lunar-segmentation-app) as a reference
+
 ## Features
 
 - **Lunar Surface Segmentation**: Segments different features on lunar surface images.

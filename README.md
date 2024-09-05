@@ -96,6 +96,16 @@ You can also use Kaggle to train these models. Simply import the provided notebo
 
 Using Kaggle can be beneficial as it provides free GPU resources and easy access to datasets, which can significantly speed up the training process.
 
+### Kaggle Integration
+
+The GAN model for space image colorization is currently undergoing further refinement. Once the training process is complete and optimal results are achieved, the final version of the training notebook will be made public on Kaggle.
+
+Future Kaggle Resources:
+
+Finalized GAN training notebook: [Link will be provided upon completion]
+
+Kaggle profile: [https://www.kaggle.com/anshkgoyal]
+
 ## Contributing
 
 Contributions to this project are welcome. Please fork the repository and submit a pull request with your changes.

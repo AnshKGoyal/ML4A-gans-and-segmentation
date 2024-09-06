@@ -21,6 +21,7 @@ The application consists of a FastAPI backend for image processing and a Streaml
 - `frontend.py`: Streamlit web interface for user interaction.
 - `utils.py`: Utility functions for image preprocessing and model loading.
 - `requirements.txt`: List of Python dependencies.
+- `report.md`: Report of this project.
 - `models/`: Directory containing pre-trained models.
   - `LunarModel.h5`: Model for lunar surface segmentation
   - `generator_60_efficientb4.h5`: Model for space image colorization

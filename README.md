@@ -6,6 +6,9 @@ This project provides a web application for processing space-related images, off
 
 The application consists of a FastAPI backend for image processing and a Streamlit frontend for user interaction.
 
+Streamlit allows Python users to create interactive web apps for data visualization with minimal effort.
+FastAPI is a high-performance Python framework for building APIs quickly and efficiently with automatic validation.
+
 **Note:** For Lunar Surface Segmentation i am using my previous [repo](https://github.com/AnshKGoyal/lunar-segmentation-app) as a reference
 
 ## Features

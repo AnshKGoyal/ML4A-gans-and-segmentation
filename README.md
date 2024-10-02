@@ -9,7 +9,7 @@ The application consists of a FastAPI backend for image processing and a Streaml
 Streamlit allows Python users to create interactive web apps for data visualization with minimal effort.
 FastAPI is a high-performance Python framework for building APIs quickly and efficiently with automatic validation.
 
-**Note:** For Lunar Surface Segmentation i am using my previous [repo](https://github.com/AnshKGoyal/lunar-segmentation-app) as a reference
+>**Note:** For Lunar Surface Segmentation i am using my previous [repo](https://github.com/AnshKGoyal/lunar-segmentation-app) as a reference
 
 ## Features
 
@@ -60,6 +60,9 @@ https://github.com/user-attachments/assets/e78be9fe-8bc9-4882-bea9-fa86222f3bd7
 
 4. The pre-trained models are included in the `models/` directory, so no additional download is necessary.
 
+>Note: If the bandwidth limit for GitHub LFS is exceeded and you cannot download the models, you can also use this [Google Drive link](https://drive.google.com/drive/folders/1OZqG1zGWHgiiQlyqwy4N30PFJhNkAHva?usp=sharing) to download the models.
+
+
 ## Running the Application
 
 1. Start the FastAPI backend:
@@ -109,6 +112,46 @@ Future Kaggle Resources:
 Finalized GAN training notebook: [Link will be provided upon completion]
 
 Kaggle profile: [https://www.kaggle.com/anshkgoyal]
+
+## Datasets
+
+This project uses publicly available datasets for training the machine learning models. These datasets come with their own licensing conditions, which are applicable to any derived models.
+
+- **Artificial Lunar Rocky Landscape Dataset** by Romain Pessia and Genya Ishigami of the Space Robotics Group, Keio University, Japan  
+  - **License**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)  
+  - **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/romainpessia/artificial-lunar-rocky-landscape-dataset)  
+  - **Note**: Models trained using this dataset (e.g., `LunarModel.h5`) are licensed under the same terms (non-commercial, ShareAlike).
+
+- **Top 100 Hubble Telescope Images** by the Original Authors  
+  - **License**: Data files © Original Authors  
+  - **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/redwankarimsony/top-100-hubble-telescope-images)  
+  - **Note**: Models derived from this dataset, including `generator_60_efficientb4.h5`, may be subject to additional restrictions imposed by the original authors.
+
+- **ESA Hubble Images (3 Classes)** by Subham Shome  
+  - **License**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)  
+  - **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/subhamshome/esa-hubble-images-3-classes)  
+  - **Note**: Models derived from this dataset, including `generator_60_efficientb4.h5`, must include proper attribution as required by the CC BY 4.0 license.
+
+- **SpaceNet Astronomy Data** by Raza Imam  
+  - **License**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)  
+  - **Source**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/razaimam45/spacenet-an-optimally-distributed-astronomy-data)  
+  - **Note**: Models derived from this dataset, including `generator_60_efficientb4.h5`, are subject to the same ShareAlike license terms (CC BY-SA 4.0).
+
+## Licensing
+
+- **Code**: The code in this repository (including the FastAPI backend, Streamlit frontend, and related scripts) is licensed under the **[Apache 2.0](https://github.com/AnshKGoyal/ML4A-gans-and-segmentation/blob/main/LICENSE)** license.
+
+- **Models**: Models trained on the above datasets are governed by the respective dataset licenses. Please refer to the Datasets section for details.
+
+## Additional License Terms for Models
+
+Please note that while the code in this repository is licensed under the Apache 2.0 license, the models included in the `models/` directory are subject to the following restrictions:
+
+1. **Models trained on datasets licensed under CC BY-NC-SA 4.0**: These models can only be used for non-commercial purposes, and any derivatives must be shared under the same terms (ShareAlike). Proper attribution to the original dataset creators is required.
+
+2. **Models trained on datasets licensed under CC BY 4.0**: These models can be used for both commercial and non-commercial purposes, provided that proper attribution is given to the dataset creators.
+   
+Please refer to the respective dataset licenses in the `README.md` for further details.
 
 ## Contributing
 

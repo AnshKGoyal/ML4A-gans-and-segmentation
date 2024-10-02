@@ -1,0 +1,1 @@
+Models in this directory are governed by external dataset licenses. Please refer to the README for detailed information and restrictions.

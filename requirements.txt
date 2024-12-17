@@ -84,3 +84,4 @@ uvicorn==0.30.5
 watchdog==4.0.2
 Werkzeug==3.0.3
 wrapt==1.16.0
+tensorflow-io
